@@ -45,8 +45,8 @@ public class DialogBox : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Cia player tag"))
         {
-            var test = playerCam.GetComponent<NewBehaviourScript>();//camera movement script kaip POV
-            test.enabled = false;
+            //var test = playerCam.GetComponent<NewBehaviourScript>();//camera movement script kaip POV
+            //test.enabled = false;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             touch = true;
