@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d973809f65efd408b91cb2e798d3fa2a, type: 3}
   m_Name: Starter Weapon
   m_EditorClassIdentifier: 
-  weaponName: Default Weapon
+  weaponName: sadfasfdasdf
   weaponID: 0
   weaponIcon: {fileID: 0}
   damage: 10

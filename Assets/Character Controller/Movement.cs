@@ -17,6 +17,8 @@ public class Movement : MonoBehaviour
 
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        
         canSprint = true;
         isCrouching = false;
         inSprint = false;
