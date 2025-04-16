@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ShootingController : MonoBehaviour
 {
@@ -15,8 +16,8 @@ public class ShootingController : MonoBehaviour
     public List<int> ammoCounters = new List<int>();
     
     [Header("UI References")]
-    public Text ammoText;
-    public Text weaponNameText;
+    public TextMeshProUGUI ammoText;
+    public TextMeshProUGUI weaponNameText;
     private float nextFireTime = 0f;
     private AudioSource audioSource;
     private Vector3 initialWeaponPosition;
